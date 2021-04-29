@@ -13,7 +13,7 @@ PriorityQueue is a C program that creates a vaccination queue base on the follow
 - Phase Three:
   * People that have health conditions.
 - Phase Four:
-  * People that work in the teaching fiel or public decurity field.
+  * People that work in the teaching fiel or public security field.
 - Non Priority:
   * Everyone that isn't part of the four groups listed above.
   
