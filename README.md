@@ -9,18 +9,23 @@ PriorityQueue is a C program that creates a vaccination queue base on the follow
 The registered people are divided in 5 groups:
 
 - Phase One
+
 People that work with health care and/or are above 75 years old.
 
 - Phase Two
+
 People that are btween 60 and 74 years old.
 
 - Phase Three
+
 People that have health conditions.
 
 - Phase Four
+
 People that work in the teaching fiel or public decurity field.
 
 - Non Priority
+
 Everyone that isn't part of the four groups listed above.
 
 ## Usage
