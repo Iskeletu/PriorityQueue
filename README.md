@@ -19,6 +19,9 @@ The registered people are divided in 5 groups:
 - Non Priority:
   * Everyone that isn't part of the four groups listed above.
 
+The program saves the queue into int's respective .dat files in ``Queue`` direcotry.
+A default example queue has been added to it.
+
 ## Usage
 
 TODO
