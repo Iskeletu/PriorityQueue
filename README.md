@@ -17,7 +17,7 @@ PriorityQueue is a C program that creates a vaccination queue base on the follow
 - Non Priority:
   * Everyone that isn't part of the four groups listed above.
 
-The program saves the queue into it's respective *.dat* files in ``Queue`` direcotry.  
+The program saves the queue into it's respective *.dat* files in [Queue](Queue) direcotry.  
 Default example queue files has been added to the proejct.
 
 ## Usage
