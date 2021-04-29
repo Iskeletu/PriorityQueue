@@ -6,7 +6,7 @@ PriorityQueue is a C program that creates a vaccination queue base on the follow
 - Age
 - Health Condition
 
-**The registered people are divided in 5 groups:**
+***The registered people are divided in 5 groups:***
 
 - Phase One:
   * People that work with health care and/or are above 75 years old.
@@ -28,6 +28,6 @@ TODO
 
 ## License
 
-Distributed under MIT License, see ``LICENSE`` for more information.
+Distributed under MIT License, see [LICENSE](LICENSE) for more information.
 
 ## PUC MINAS - CORAÇÃO EUCARÍSTICO
