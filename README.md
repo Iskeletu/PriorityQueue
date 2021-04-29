@@ -20,7 +20,7 @@ The registered people are divided in 5 groups:
   * Everyone that isn't part of the four groups listed above.
 
 The program saves the queue into int's respective .dat files in ``Queue`` direcotry.  
-A default example queue has been added to it.
+Default example queue files has been added to the proejct.
 
 ## Usage
 
