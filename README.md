@@ -24,7 +24,7 @@ Default example queue files has been added to the proejct.
 ## Usage
 
 The program will automatically try to load "queue.dat" file into the queue if it is not empty.  
-![Main Menu](https://imgur.com/a/LS1V82Z)
+![Main menu:](https://user-images.githubusercontent.com/80495916/116734400-934dd300-a9c3-11eb-9905-d66e57b8678d.png)
 
 ## License
 
