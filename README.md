@@ -41,7 +41,11 @@ Selecione um opcao:
 ```
 - Option 1:
   * Register a person an enqueues it, will require the following information:
-    - aa 
+    - Name;
+    - Age;
+    - Profession field;
+    - Health condition;  
+The user will be given an option to enqueue this person or discrd it.
 
 ## License
 
