@@ -58,7 +58,7 @@ void print_queue(Queue *q)
     }
     else
     {
-        printf("Nenhuma pessoa cadastrada.\n\n")
+        printf("Nenhuma pessoa cadastrada.\n\n");
     }
 }
 
