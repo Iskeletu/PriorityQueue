@@ -40,8 +40,8 @@ Selecione um opcao:
 > _
 ```
 - Option 1:
- * Register a person an enqueues it, will require the following information:
-  - aa 
+  * Register a person an enqueues it, will require the following information:
+   - aa 
 
 ## License
 
