@@ -49,7 +49,7 @@ Selecione um opcao:
 The user will be given an option to enqueue this person or discrd it.  
 
 - Option 2 ```Exibir fila geral```:  
-- 
+
 Prints the whole queue, person data will me displayed as following:
 ```bash
 {
