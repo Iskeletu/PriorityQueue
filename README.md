@@ -39,14 +39,16 @@ Selecione um opcao:
 
 > _
 ```
-- Option 1:
+- Option 1 ```Cadastrar pessoa na fila```:
   * Register a person an enqueues it, will require the following information:
     - Name;
     - Age;
     - Profession field;
     - Health condition;  
 
-The user will be given an option to enqueue this person or discrd it.
+The user will be given an option to enqueue this person or discrd it.  
+
+- Option 2 ```Exibir fila geral```:
 
 ## License
 
