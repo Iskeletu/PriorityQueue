@@ -8,6 +8,7 @@ typedef struct Person
     int age;
     int profession;
     int condition;
+    int priority;
 } Person;
 
 typedef struct Cell
@@ -28,10 +29,12 @@ typedef struct Queue
 Cell *new_cell();
 void new_queue(Queue *q);
 void enqueue(Queue *q, Person data);
-void enqueue_priority(Queue *q, Person data);
-int sizeofqueue(Queue *q);
+Cell *get_cell(Queue *q, int position);
+void delete_cell(Queue *q, int position);
 void print_queue(Queue *q);
+void print_priority_queue(Queue *q, int priority);
 void print_person(Person p);
+int scan_queue(Queue *q, char name[64]);
 //===========================
 
 #endif
