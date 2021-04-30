@@ -23,7 +23,7 @@ Default example queue files has been added to the proejct.
 
 ## Usage
 
-TODO
+The program will automatically try to load "queue.dat" file into the queue if it is not empty.  
 
 ## License
 
