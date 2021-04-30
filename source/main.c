@@ -3,10 +3,10 @@
 #include <stdbool.h>
 
 //Includes queue functions
-#include "queue.h"
+#include "headers/queue.h"
 
 //Includes file manager function
-#include "filemanager.h"
+#include "headers/filemanager.h"
 
 
 
@@ -18,7 +18,7 @@ int menu()
     printf("Bem vindo!\n\n");
 
     do
-    {
+    { //Checks for valid selection.
         printf("Selecione um opcao:\n\n");
         printf("1 - Cadastrar pessoa na fila\n");
         printf("2 - Exibir fila geral\n");
@@ -67,7 +67,7 @@ void queue_printing_menu(Queue *queue)
     system("cls");
 
     switch(selection)
-    {
+    { //Changes terminal information based on user selection.
         case 1:
             printf("Fase 1:\n\n");
             break;
@@ -158,6 +158,7 @@ int register_person(Queue *queue, Person *person)
         }
     } while(person->condition < 1 || person->condition > 2);
 
+    //This if/else block changes the person's priority based on previously described criteria.
     if(person->profession == 1 || person->age >= 75)
     {
         person->priority = 1;
@@ -261,7 +262,7 @@ void edit_person(Queue *queue)
             Person *person = (Person*)malloc(sizeof(Person));
 
             do
-            {
+            { //Loops back if the user chose not to save the new cell.
                 printf("Informe os novos dados:\n\n");
                 sub_selection = register_person(queue, person);
             } while(sub_selection != 1);
@@ -292,7 +293,7 @@ int main()
     Non Priority queue = everyone else.
     */
 
-    //Try to load file data into queue if it exists and isn't empty.
+    //Tries to load file data into queue if it exists and isn't empty.
     printf("Tentando carregar arquivo...\n");
     int load = load_queue(queue);
     if(load == 1)
@@ -396,7 +397,7 @@ int main()
             }
 
             case 5:
-            { //Edits informed cell in the queue.
+            { //Edits cell selected by informed position in the queue.
                 edit_person(queue);
                 break;
             }
