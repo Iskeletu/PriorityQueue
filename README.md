@@ -24,7 +24,21 @@ Default example queue files has been added to the proejct.
 ## Usage
 
 The program will automatically try to load "queue.dat" file into the queue if it is not empty.  
-![Main menu:](https://user-images.githubusercontent.com/80495916/116734400-934dd300-a9c3-11eb-9905-d66e57b8678d.png)
+Main menu:
+```bash
+Bem vindo!
+
+Selecione um opcao:
+
+1 - Cadastrar pessoa na fila
+2 - Exibir fila geral
+3 - Filtrar fila por fase
+4 - Localizar posicao na fila
+5 - Editar Pessoa
+0 - Salvar e sair
+
+> _
+```
 
 ## License
 
