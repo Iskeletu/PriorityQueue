@@ -18,8 +18,8 @@ PriorityQueue is a C program that creates a vaccination queue base on the follow
   * Everyone that isn't part of the four groups listed above.
   
     
-The program saves the queue into it's respective *.dat* files in [Queue](Queue) direcotry.  
-Default example queue files has been added to the proejct.
+The program saves the queue into a *.dat* file in [Queue](Queue) direcotry.  
+Default example queue file has been added to the proejct.
 
 ## Usage
 
@@ -46,11 +46,12 @@ Selecione um opcao:
     - Profession field;
     - Health condition;  
 
-The user will be given an option to enqueue this person or discrd it.  
+The same name cannot be registered twice.  
+The user will be given an option to enqueue this person or discard it.  
 
 - Option 2 ```Exibir fila geral```:  
 
-Prints the whole queue, person data will me displayed as following:
+Prints the whole queue, person data will be displayed as following:
 ```bash
 {
 Nome: {name}
@@ -59,6 +60,25 @@ Area da profissao: {work fiel}
 Tem problema de saude: {health condition}
 }
 ```
+
+- Option 3 ```Filtrar fila por fase```:  
+
+This opting will display a sub menu to select which priority is to be displayed.  
+Prints the queue filtered by select priority, it's displays data in the same pattern as Option 2.
+
+- Option 4 ```Localizar posicao na fila```:  
+
+Requires a name, it compares the informed name with each of the registeres cells and returns it's position on the queue.  
+Will return nothing if there is no person with the informed name registered.
+
+- Option 5 ```Editar Pessoa```:  
+
+Requires a position *(can be consulted with option 4)*, it gets the cell stored in this position of the queue and deletes it.
+Will enqueue a substitute cell using the same interface as option 1.
+
+- Option 0 ```Salvar e sair```:  
+
+Exit option, will store queue data into file and close the program when selected.
 
 ## License
 
