@@ -13,7 +13,7 @@ void save_queue(Queue *queue)
 
     if(file == NULL)
     { //Checks if the file was open successfully.
-        exit(302); //This means the program has failed to open/create a file in "Queue" directory.
+        exit(404); //This means the program has failed to open/create a file in "Queue" directory.
     }
 
     Cell *scan = queue->start->next;
@@ -41,7 +41,7 @@ int load_queue(Queue *queue)
 
     if(file == NULL)
     { //Checks if the file was open successfully.
-        exit(302); //This means the program has failed to open/create a file in "Queue" directory.
+        exit(404); //This means the program has failed to open/create a file in "Queue" directory.
     }
 
     fseek(file, 0L, SEEK_END);
