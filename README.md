@@ -56,7 +56,7 @@ Prints the whole queue, person data will be displayed as following:
 {
 Nome: {name}
 Idade: {age}
-Area da profissao: {work fiel}
+Area da profissao: {work field}
 Tem problema de saude: {health condition}
 }
 ```
