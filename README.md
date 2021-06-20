@@ -63,8 +63,8 @@ Tem problema de saude: {health condition}
 
 - Option 3 ```Filtrar fila por fase```:  
 
-This opting will display a sub menu to select which priority is to be displayed.  
-Prints the queue filtered by select priority, it's displays data in the same pattern as Option 2.
+This option will display a sub menu to select which priority is to be displayed.  
+Prints the queue filtered by select priority, it displays data in the same pattern as Option 2.
 
 - Option 4 ```Localizar posicao na fila```:  
 
