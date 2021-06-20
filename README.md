@@ -1,6 +1,6 @@
 # PriorityQueue
 
-PriorityQueue is a C program that creates a vaccination queue base on the following criteria:  
+PriorityQueue is a C program that creates a vaccination queue based on the following criteria:  
 - Working Field  
 - Age  
 - Health Condition  
